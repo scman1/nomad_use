@@ -1,0 +1,109 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org",
+    "chmo": "http://obolibrary.org",
+    "chebi": "http://obolibrary.org",
+    "nomad": "https://nomad-lab.eu",
+    "energy": "nomad:run/calculation/energy/total",
+    "positions": "nomad:run/system/atoms/positions"
+  },
+  "@id": "https://doi.org",
+  "@type": [
+    "Dataset",
+    "chmo:CHMO_0001402"
+  ],
+  "name": "DFT Simulation of Molecular Catalyst Sample",
+  "about": {
+    "@type": "chebi:CHEBI_23367",
+    "name": "Iron-based Coordination Catalyst",
+    "description": "Fe(II) complex with a tetradentate nitrogen-donor macrocyclic ligand.",
+    "chemicalFormula": "C20H24FeN4",
+    "additionalType": "https://example.org"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Total Electronic Energy",
+      "propertyID": "energy",
+      "value": -1.7368833470628061e-15,
+      "unitText": "eV"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Atomic Positions",
+      "propertyID": "positions",
+      "value": [
+        [
+          7.5683e-12,
+          1.3470580000000002e-10,
+          9.5055e-12
+        ],
+        [
+          -3.7305e-12,
+          -3.127e-13,
+          3.7585e-12
+        ],
+        [
+          -1.153743e-10,
+          -7.772210000000001e-11,
+          -2.578e-12
+        ],
+        [
+          -7.974460000000001e-11,
+          -2.1962799999999998e-10,
+          2.777e-13
+        ],
+        [
+          -1.523231e-10,
+          -3.1665009999999997e-10,
+          2.5406000000000003e-12
+        ],
+        [
+          7.396490000000001e-11,
+          -2.2500010000000003e-10,
+          2.4537e-12
+        ],
+        [
+          1.347346e-10,
+          -1.6426e-10,
+          -1.1343620000000001e-10
+        ],
+        [
+          1.200524e-10,
+          -8.649250000000001e-11,
+          6.290900000000001e-12
+        ],
+        [
+          9.61385e-11,
+          1.771591e-10,
+          -1.25996e-11
+        ],
+        [
+          -7.362459999999999e-11,
+          1.915647e-10,
+          -8.4992e-12
+        ],
+        [
+          -2.1723219999999999e-10,
+          -4.28712e-11,
+          -1.3216e-11
+        ],
+        [
+          1.266776e-10,
+          -3.092463e-10,
+          4.6008e-11
+        ],
+        [
+          2.1156329999999998e-10,
+          -5.29022e-11,
+          5.42518e-11
+        ]
+      ]
+    }
+  ],
+  "creator": {
+    "@type": "SoftwareApplication",
+    "name": "ORCA",
+    "softwareVersion": "3.0.3 - RELEASE   -"
+  }
+}
