@@ -1,2 +1,3 @@
 inputs/cdi_*
 *_old.ipynb
+.ipynb_checkpoints/*
