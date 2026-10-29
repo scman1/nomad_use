@@ -1,0 +1,171 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org",
+    "chmo": "http://obolibrary.org",
+    "chebi": "http://obolibrary.org",
+    "nomad": "https://nomad-lab.eu",
+    "energy": "nomad:run/calculation/energy/total",
+    "positions": "nomad:run/system/atoms/positions"
+  },
+  "@id": "https://doi.org",
+  "@type": [
+    "Dataset",
+    "chmo:CHMO_0001402"
+  ],
+  "name": "DFT Simulation of Molecular Sample",
+  "about": {
+    "@type": "chebi:CHEBI_23367",
+    "name": "Properties=species:S:1:pos:R:3:forces:R:3 energy=-28667.232864712645",
+    "description": "Organometallic complex C\u2088H\u2081\u2083ClN\u2082Ni. Fully relaxed geometry (indicated by the near-zero forces on the right side of the coordinates) from Density Functional Theory (DFT) calculation, from a homogeneous catalysis dataset.",
+    "chemicalFormula": "C8H13ClN2Ni",
+    "inchi": "1S/C5H8N2.C3H5.ClH.Ni/c1-6-3-4-7(2)5-6;1-3-2;;/h3-4H,1-2H3;3H,1-2H2;1H;/q;;;+2/p-2/rC8H13ClN2Ni/c1-5-2-13-8(10-3)6-7-11(8)4/h5-7H,2H2,1,3-4H3/q+1/p-1",
+    "additionalType": "https://research-portal.st-andrews.ac.uk/en/datasets/mechanism-of-the-catalytic-carboxylation-of-alkylboronates-with-c/",
+    "file": "1-IMe_ECP1.out"
+  },
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "Total Electronic Energy",
+      "propertyID": "energy",
+      "value": null,
+      "unitText": "eV"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "Atomic Positions",
+      "propertyID": "positions",
+      "value": [
+        [
+          9.79819e-11,
+          6.9043e-12,
+          2.8686e-12
+        ],
+        [
+          1.063556e-10,
+          -1.524023e-10,
+          -1.511153e-10
+        ],
+        [
+          -1.7176050000000001e-10,
+          -8.65781e-11,
+          6.43138e-11
+        ],
+        [
+          -1.787996e-10,
+          1.0189680000000002e-10,
+          -4.1830200000000005e-11
+        ],
+        [
+          -3.064722e-10,
+          -5.561000000000001e-11,
+          4.6991e-11
+        ],
+        [
+          -3.1113790000000003e-10,
+          6.33743e-11,
+          -2.0279500000000002e-11
+        ],
+        [
+          -9.06429e-11,
+          9.9669e-12,
+          9.822500000000002e-12
+        ],
+        [
+          3.025187e-10,
+          3.83458e-11,
+          3.0923e-12
+        ],
+        [
+          2.420738e-10,
+          6.69514e-11,
+          1.270608e-10
+        ],
+        [
+          1.317518e-10,
+          1.5804450000000002e-10,
+          1.300276e-10
+        ],
+        [
+          -3.860555e-10,
+          -1.206783e-10,
+          8.262600000000001e-11
+        ],
+        [
+          -3.954392e-10,
+          1.223913e-10,
+          -5.55723e-11
+        ],
+        [
+          3.0771250000000004e-10,
+          1.140253e-10,
+          -7.63734e-11
+        ],
+        [
+          3.700061e-10,
+          -4.70749e-11,
+          -7.656300000000001e-12
+        ],
+        [
+          2.587116e-10,
+          -7.438e-13,
+          2.1211920000000002e-10
+        ],
+        [
+          1.342826e-10,
+          2.483298e-10,
+          6.71212e-11
+        ],
+        [
+          7.285660000000001e-11,
+          1.679153e-10,
+          2.219975e-10
+        ],
+        [
+          -1.210289e-10,
+          -2.084012e-10,
+          1.2792650000000001e-10
+        ],
+        [
+          -2.006698e-10,
+          -2.845246e-10,
+          1.276578e-10
+        ],
+        [
+          -3.4853800000000004e-11,
+          -2.445807e-10,
+          6.95379e-11
+        ],
+        [
+          -9.00941e-11,
+          -1.881533e-10,
+          2.3195280000000002e-10
+        ],
+        [
+          -1.387993e-10,
+          2.220103e-10,
+          -1.1480060000000002e-10
+        ],
+        [
+          -1.6138170000000001e-10,
+          3.128458e-10,
+          -5.6167000000000005e-11
+        ],
+        [
+          -3.0571500000000004e-11,
+          2.1584089999999998e-10,
+          -1.335477e-10
+        ],
+        [
+          -1.9170050000000002e-10,
+          2.266035e-10,
+          -2.114856e-10
+        ]
+      ]
+    }
+  ],
+  "creator": {
+    "@type": "SoftwareApplication",
+    "name": "Gaussian",
+    "softwareVersion": "09"
+  }
+}

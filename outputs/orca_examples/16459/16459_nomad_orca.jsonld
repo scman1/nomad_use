@@ -12,13 +12,15 @@
     "Dataset",
     "chmo:CHMO_0001402"
   ],
-  "name": "DFT Simulation of Molecular Catalyst Sample",
+  "name": "DFT Simulation of Molecular Sample",
   "about": {
     "@type": "chebi:CHEBI_23367",
-    "name": "Iron-based Coordination Catalyst",
-    "description": "Fe(II) complex with a tetradentate nitrogen-donor macrocyclic ligand.",
-    "chemicalFormula": "C20H24FeN4",
-    "additionalType": "https://example.org"
+    "name": "4-aminofuran-2(5H)-one (AKA 4-aminobutenolide)",
+    "description": "This compound belongs to a class called tetronic acid derivatives. In quantum chemistry datasets like QM9 (indexed by NOMAD), it is a classic example of an unsaturated, oxygen-containing heterocycle decorated with a nitrogen functional group.",
+    "chemicalFormula": "C5H5NO2",
+    "smiles": "NC1=CC(=O)C2OC12",
+    "inchi": "1S/C5H5NO2/c6-4-1-3(7)5-2(4)8-5/h1,2,5H,6H2",
+    "additionalType": "https://nomad-lab.eu/projects/cJ6dPO0ZSHuFiwQIip8tLg/files/16459"
   },
   "variableMeasured": [
     {
